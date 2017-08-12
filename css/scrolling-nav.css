@@ -203,40 +203,40 @@ of those sections to manage the look and feel of the site. */
 #nieuws {
 
     background: white;
-    padding: 200px 50px 200px 50px;
+    padding: 200px 50px 200px 50px !important;
 
 }
 
 #myCarousel .carousel-caption {
-    left:0;
-	right:0;
-	bottom:0;
-	text-align:left;
-	padding:10px;
-	background:rgba(0,0,0,0.6);
-	text-shadow:none;
+    left:0 !important;
+	right:0 !important;
+	bottom:0 !important;
+	text-align:left !important;
+	padding:10px !important;
+	background:rgba(0,0,0,0.6) !important;
+	text-shadow:none !important;
 }
 
 #myCarousel .list-group {
-	position:absolute;
-	top:0;
-	right:0;
+	position:absolute !important;
+	top:0 !important;
+	right:0 !important;
 }
 #myCarousel .list-group-item {
-	border-radius:0px;
-	cursor:pointer;
+	border-radius:0px !important;
+	cursor:pointer !important;
 }
 #myCarousel .list-group .active {
-	background-color:#eee;
+	background-color:#eee !important;
 }
 
 @media (min-width: 992px) {
-	#myCarousel {padding-right:33.3333%;}
-	#myCarousel .carousel-controls {display:none;}
+	#myCarousel {padding-right:33.3333% !important;}
+	#myCarousel .carousel-controls {display:none !important;}
 }
 @media (max-width: 991px) {
 	.carousel-caption p,
-	#myCarousel .list-group {display:none;}
+	#myCarousel .list-group {display:none !important;}
 }
 
 /* CONTACT //////////////////////////////////////////////////////////////////*/
